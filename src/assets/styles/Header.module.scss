@@ -1,0 +1,25 @@
+.header {
+  font-family: robotoMedium, Arial, Helvetica, sans-serif;
+  .link {
+    color: var(--c-black-light);
+    letter-spacing: 1px;
+    border: 0;
+
+    background-color: white;
+    &:hover {
+      color: var(--c-red-bolder) !important;
+      border: 0;
+      background: white !important;
+    }
+    &:focus-visible  {
+      color: var(--c-red-bolder) !important;
+      border: 0;
+      background: white !important;
+    }
+    &:active {
+      color: var(--c-red-bolder) !important;
+      border: 0;
+      background: white !important;
+    }
+  }
+}

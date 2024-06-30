@@ -1,0 +1,76 @@
+@import "~bootstrap/scss/bootstrap";
+
+// variables
+:root {
+  --c-white: #fff;
+  --c-white-2: #00000008;
+  --c-white-3: #ededed;
+  --c-black: #000;
+  --c-black-2: #080521;
+  --c-black-3: #3622e8;
+  --c-black-light: #080521;
+  --c-red-bolder: #c2223a;
+  --c-yellow: #d3840d;
+  --c-grey: grey;
+}
+
+// font-family
+@font-face {
+  font-family: robotoRegular;
+  src: url(assets/fonts/roboto/Roboto-Regular.ttf) format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: robotoMedium;
+  src: url(assets/fonts/roboto/Roboto-Medium.ttf) format("truetype");
+  font-weight: 500;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: robotoRegular, Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  min-height: 100vh;
+  background-color: var(--c-white-2);
+  font-family: robotoRegular, Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.4s all;
+}
+
+ul {
+  margin: 0;
+}
+
+// table {
+//   width: 100%;
+//   border-collapse: collapse;
+//   tr,
+//   th,
+//   td {
+//     text-align: center;
+//     padding: 10px 0;
+//     border: 1px solid var(--c-grey);
+//   }
+//   th {
+//     text-align: center;
+//     background: var(--c-black-2);
+//     color: var(--c-white);
+//     letter-spacing: 1px;
+//   }
+// }
+
+// button {
+//   border: none;
+//   background: transparent;
+// }
